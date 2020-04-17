@@ -65,12 +65,6 @@ describe('site test', () => {
   });
 
 
-  it('Basic Pages zh', async () => {
-    const { status, $ } = await render('/index-cn');
-    expect($('title').text()).toEqual(`Ant Design - ${zhCN.messages['app.home.slogan']}`);
-    expect(status).toBe(200);
-  });
-
   for (const component of components) {
     if (component.split('/').length < 3) {
       it(`Component ${component} zh Page`, async () => {
