@@ -28,7 +28,8 @@ function getModuleData(props) {
         .filter(item => item)
         .slice(0, 2)
         .join('/');
-  const excludedSuffix = utils.isZhCN(props.location.pathname) ? 'en-US.md' : 'zh-CN.md';
+  // const excludedSuffix = utils.isZhCN(props.location.pathname) ? 'en-US.md' : 'zh-CN.md';
+  const excludedSuffix = 'zh-CN.md';
   let data;
   switch (moduleName) {
     case 'docs/react':
@@ -49,8 +50,9 @@ function fileNameToPath(filename) {
 
 const getSideBarOpenKeys = nextProps => {
   const { themeConfig } = nextProps;
-  const { pathname } = nextProps.location;
-  const locale = utils.isZhCN(pathname) ? 'zh-CN' : 'en-US';
+  // const { pathname } = nextProps.location;
+  // const locale = utils.isZhCN(pathname) ? 'zh-CN' : 'en-US';
+  const locale = 'zh-CN';
   const moduleData = getModuleData(nextProps);
   const shouldOpenKeys = utils
     .getMenuItems(moduleData, locale, themeConfig.categoryOrder, themeConfig.typeOrder)

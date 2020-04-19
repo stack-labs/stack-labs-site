@@ -16,7 +16,8 @@ export default collect(async nextProps => {
     throw 404; // eslint-disable-line no-throw-literal
   }
 
-  const locale = utils.isZhCN(pathname) ? 'zh-CN' : 'en-US';
+  // const locale = utils.isZhCN(pathname) ? 'zh-CN' : 'en-US';
+  const locale = 'zh-CN';
   const pageDataPromise =
     typeof pageData === 'function'
       ? pageData()

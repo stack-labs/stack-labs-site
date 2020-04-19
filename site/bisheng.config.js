@@ -31,8 +31,8 @@ module.exports = {
   source: {
     components: './components',
     docs: './docs',
-    changelog: ['CHANGELOG.zh-CN.md', 'CHANGELOG.en-US.md'],
-    'components/form/v3': ['components/form/v3.zh-CN.md', 'components/form/v3.en-US.md'],
+    changelog: ['CHANGELOG.zh-CN.md'],
+    'components/form/v3': ['components/form/v3.zh-CN.md'],
     'docs/resources': ['./docs/resources.zh-CN.md'],
   },
   theme: './site/theme',

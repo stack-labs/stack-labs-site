@@ -146,7 +146,8 @@ export default collect(async (nextProps: ResourcesProps) => {
   const pageDataPath = pathname.replace('-cn', '').split('/');
   const pageData = nextProps.utils.get(nextProps.data, pageDataPath);
 
-  const locale = utils.isZhCN(pathname) ? 'zh-CN' : 'en-US';
+  // const locale = utils.isZhCN(pathname) ? 'zh-CN' : 'en-US';
+  const locale = 'zh-CN';
   const pageDataPromise = pageData[locale]();
   return { localizedPageData: await pageDataPromise };
 })(Resources);

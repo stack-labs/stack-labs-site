@@ -203,7 +203,7 @@ export default class Layout extends React.Component {
   render() {
     const { children, helmetContext = {}, ...restProps } = this.props;
     const { appLocale, direction, isMobile } = this.state;
-    const title = "Micro 中国站";
+    const title = 'Micro 中国站';
 
     const description =
       appLocale.locale === 'zh-CN'
@@ -219,23 +219,16 @@ export default class Layout extends React.Component {
           <Helmet encodeSpecialCharacters={false}>
             <html lang={appLocale.locale === 'zh-CN' ? 'zh' : 'en'} data-direction={direction} />
             <title>{title}</title>
-            <link
-              rel="apple-touch-icon-precomposed"
-              sizes="144x144"
-              href={microLogo}
-            />
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href={microLogo} />
             <meta name="description" content={description} />
             <meta property="og:title" content={title} />
             <meta property="og:type" content="website" />
-            <meta
-              property="og:image"
-              content={microLogo}
-            />
+            <meta property="og:image" content={microLogo} />
           </Helmet>
           <IntlProvider
             locale={appLocale.locale}
             messages={appLocale.messages}
-            defaultLocale="en-US"
+            defaultLocale="zh-CN"
           >
             <ConfigProvider
               locale={appLocale.locale === 'zh-CN' ? zhCN : null}
