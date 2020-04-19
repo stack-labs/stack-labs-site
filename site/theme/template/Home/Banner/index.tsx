@@ -73,7 +73,7 @@ export default function Banner() {
 
 
           <div className="home-banner-content-operations">
-            <Link to={getLocalizedPathname('/docs/react/introduce', isZhCN)}>
+            <Link to={getLocalizedPathname('/docs/micro/introduce', isZhCN)}>
               <Button type="primary" shape="round">
                 <FormattedMessage id="app.home.getting-started" />
               </Button>

@@ -15,6 +15,7 @@ import zhCN from 'antd/es/locale/zh_CN';
 import Header from './Header';
 import SiteContext from './SiteContext';
 import cnLocale from '../../zh-CN';
+import microLogo from '../../images/micro-logo.svg';
 import * as utils from '../utils';
 
 if (typeof window !== 'undefined' && navigator.serviceWorker) {
@@ -221,14 +222,14 @@ export default class Layout extends React.Component {
             <link
               rel="apple-touch-icon-precomposed"
               sizes="144x144"
-              href="https://avatars2.githubusercontent.com/u/20906580?s=200&v=4"
+              href={microLogo}
             />
             <meta name="description" content={description} />
             <meta property="og:title" content={title} />
             <meta property="og:type" content="website" />
             <meta
               property="og:image"
-              content="https://avatars2.githubusercontent.com/u/20906580?s=200&v=4"
+              content={microLogo}
             />
           </Helmet>
           <IntlProvider

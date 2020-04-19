@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./microcn-site",
     "paths": {
       "antd": ["components/index.tsx"],
       "antd/es/*": ["components/*"]

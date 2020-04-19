@@ -1,8 +1,7 @@
 import * as React from 'react';
-import Hitu from '@ant-design/hitu';
-import { HiTuRefObject } from '@ant-design/hitu/lib/HiTu';
 import './Logo.less';
 import { preLoad } from '../util';
+import microChina from '../../../images/micro-china.svg';
 
 const ICON_IMAGES = [
   'https://gw.alipayobjects.com/zos/basement_prod/fef2f3d5-9326-48e3-a8f3-a99584efd425.svg',
@@ -23,28 +22,13 @@ preLoad(ICON_IMAGES);
 
 const AntDesign = () => (
   <svg>
-    <circle cx="16" cy="16" r="9" fill="#F74455" />
+    <circle cx="16" cy="16" r="9" fill="#F74455"/>
   </svg>
 );
 
 AntDesign.width = 32;
 AntDesign.height = 32;
 
-const ICONS = ICON_IMAGES.map(href => {
-  function Icon() {
-    return (
-      <svg viewBox="0 0 32 32">
-        {/* Image size will follow outer svg size, let's cut to half here */}
-        <image href={href} height="16" width="16" />
-      </svg>
-    );
-  }
-
-  Icon.width = 32;
-  Icon.height = 32;
-
-  return Icon;
-});
 
 export default function Logo() {
   return (
@@ -55,7 +39,7 @@ export default function Logo() {
         width="490"
         height="87"
         alt="Micro China"
-        src="https://raw.githubusercontent.com/micro-in-cn/docs/master/images/micro-china.svg"
+        src={microChina}
         className="home-banner-normal"
       />
     </div>

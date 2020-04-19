@@ -48,19 +48,23 @@ export default function Home() {
 
   return (
     <div className="home-container">
-      <style dangerouslySetInnerHTML={{ __html: getStyle() }} />
-      <Banner />
+      <style dangerouslySetInnerHTML={{ __html: getStyle() }}/>
+      <Banner/>
       <div style={{ maxWidth: 1256, margin: '0 auto' }}>
-        <BlockContent title={<FormattedMessage id="app.home.recommend" />}>
-          <RecommendPage />
+        {
+          /*
+           <BlockContent title={<FormattedMessage id="app.home.recommend"/>}>
+          <RecommendPage/>
+        </BlockContent>
+        */
+        }
+
+        <BlockContent title={<FormattedMessage id="app.home.design-and-framework"/>}>
+          <DesignPage/>
         </BlockContent>
 
-        <BlockContent title={<FormattedMessage id="app.home.design-and-framework" />}>
-          <DesignPage />
-        </BlockContent>
-
-        <BlockContent
-          title={<FormattedMessage id="app.home.more" />}
+        {/* <BlockContent
+          title={<FormattedMessage id="app.home.more"/>}
           extra={
             <Link
               to={getLocalizedPathname('/docs/resources', isZhCN, {
@@ -68,14 +72,15 @@ export default function Home() {
                 enUS: 'Articles',
               })}
             >
-              <FormattedMessage id="app.home.view-more" />
+              <FormattedMessage id="app.home.view-more"/>
             </Link>
           }
         >
-          <MorePage />
+          <MorePage/>
         </BlockContent>
+        */}
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

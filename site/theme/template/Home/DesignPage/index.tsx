@@ -25,7 +25,7 @@ const MINI_LIST: PanelProps[] = [
     img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*ZhzDQLMyYlYAAAAAAAAAAABkARQnAQ',
     title: 'Platform Web',
     description: 'app.home.product-platformWeb-slogan',
-    href: 'https://antv.vision',
+    href: 'https://github.com/micro-in-cn/platform-web',
   },
   {
     img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*I-ygS5prYksAAAAAAAAAAABkARQnAQ',
@@ -36,9 +36,9 @@ const MINI_LIST: PanelProps[] = [
   {
     img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*mb-WQILTlSEAAAAAAAAAAABkARQnAQ',
     title: 'x-apisix',
-    description: 'app.home.product-mobile-slogan',
+    description: 'app.home.product-xapisix-slogan',
     href: 'https://github.com/micro-in-cn/x-apisix',
-  }
+  },
 ];
 
 const MiniPanel = ({
@@ -112,7 +112,7 @@ export default function DesignPage() {
                     />
                     <Certainty />
                     <h4>
-                      <FormattedMessage id="app.home.certainty" />
+                      <FormattedMessage id="app.home.pluggable" />
                     </h4>
                   </Col>
                   <Col xs={12} sm={6}>
@@ -122,7 +122,7 @@ export default function DesignPage() {
                     />
                     <Meaningful />
                     <h4>
-                      <FormattedMessage id="app.home.meaningful" />
+                      <FormattedMessage id="app.home.veryeasy" />
                     </h4>
                   </Col>
                   <Col xs={12} sm={6}>
