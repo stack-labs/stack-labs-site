@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[280],{3298:function(e,n){e.exports={content:["article",["p","设计模式-探索：概览"]],meta:{category:"Design Patterns (Research)",order:0,title:"Overview",skip:!0,filename:"docs/spec/research-overview.en-US.md"},toc:["ul"]}}}]);

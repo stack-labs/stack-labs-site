@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{831:function(o,e){o.exports={content:["article",{}],meta:{order:1,title:"资源",toc:!1,filename:"docs/resources.zh-CN.md"},description:["section",["p","这里汇总了与 Go-Micro 相关的所有资源。"]],toc:["ul"]}}}]);
