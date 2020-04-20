@@ -28,6 +28,7 @@ function alertBabelConfig(rules) {
 module.exports = {
   port: 8001,
   hash: true,
+  root: '/microcn-site/',
   source: {
     components: './components',
     docs: './docs',
