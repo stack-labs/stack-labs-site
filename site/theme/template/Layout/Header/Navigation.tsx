@@ -32,10 +32,7 @@ export default ({
 }: NavigationProps) => {
   const menuMode = isMobile ? 'inline' : 'horizontal';
 
-  const module = pathname
-    .split('/')
-    .slice(0, -1)
-    .join('/');
+  const module = pathname.split('/').slice(0, -1).join('/');
   let activeMenuItem = module || 'home';
   if (location.pathname === 'changelog' || location.pathname === 'changelog-cn') {
     activeMenuItem = 'docs/react';
@@ -77,7 +74,7 @@ export default ({
       id="nav"
     >
       <Menu.Item key="docs/react">
-        <Link to={utils.getLocalizedPathname('/docs/react/introduce', isZhCN)}>
+        <Link to={utils.getLocalizedPathname('{{root}}/docs/micro/introduce', isZhCN)}>
           <FormattedMessage id="app.header.menu.documentation" />
         </Link>
       </Menu.Item>

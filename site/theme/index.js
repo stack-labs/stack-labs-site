@@ -51,7 +51,7 @@ module.exports = {
     'bisheng-plugin-react?lang=__react',
   ],
   routes: {
-    path: '/microcn-site',
+    path: '/',
     component: './template/Layout/index',
     indexRoute: { component: homeTmpl },
     childRoutes: [
