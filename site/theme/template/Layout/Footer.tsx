@@ -1,25 +1,11 @@
 import React from 'react';
 import { FormattedMessage, injectIntl, WrappedComponentProps } from 'react-intl';
-import { Modal, message } from 'antd';
+import { message, Modal } from 'antd';
 import { Link } from 'bisheng/router';
 import RcFooter from 'rc-footer';
 import { presetPalettes } from '@ant-design/colors';
-import {
-  AntDesignOutlined,
-  MediumOutlined,
-  TwitterOutlined,
-  ZhihuOutlined,
-  UsergroupAddOutlined,
-  GithubOutlined,
-  HistoryOutlined,
-  ProfileOutlined,
-  BugOutlined,
-  IssuesCloseOutlined,
-  BookOutlined,
-  MessageOutlined,
-  QuestionCircleOutlined,
-} from '@ant-design/icons';
-import { isLocalStorageNameSupported, loadScript, getLocalizedPathname } from '../utils';
+import { CommentOutlined, GithubOutlined, UsergroupAddOutlined } from '@ant-design/icons';
+import { getLocalizedPathname, isLocalStorageNameSupported, loadScript } from '../utils';
 import ColorPicker from '../Color/ColorPicker';
 
 class Footer extends React.Component<WrappedComponentProps> {
@@ -54,8 +40,13 @@ class Footer extends React.Component<WrappedComponentProps> {
       title: <FormattedMessage id="app.footer.resources"/>,
       items: [
         {
-          title: 'Ant Design Pro',
-          url: 'https://pro.ant.design',
+          title: 'Platform Web 治理平台',
+          url: 'https://github.com/micro-in-cn/platform-web',
+          openExternal: true,
+        },
+        {
+          title: 'XConf 配置中心',
+          url: 'https://github.com/micro-in-cn/XConf',
           openExternal: true,
         },
       ],
@@ -65,7 +56,7 @@ class Footer extends React.Component<WrappedComponentProps> {
       title: <FormattedMessage id="app.footer.community"/>,
       items: [
         {
-          icon: <AntDesignOutlined/>,
+          icon: <CommentOutlined/>,
           title: <FormattedMessage id="app.footer.awesome"/>,
           url: 'https://github.com/websemantics/awesome-ant-design',
           openExternal: true,
@@ -77,7 +68,7 @@ class Footer extends React.Component<WrappedComponentProps> {
       col2.items.push({
         icon: <UsergroupAddOutlined/>,
         title: <FormattedMessage id="app.footer.work_with_us"/>,
-        url: getLocalizedPathname('/docs/resources', isZhCN, {
+        url: getLocalizedPathname('/docs/community/join-us', isZhCN, {
           zhCN: '加入我们',
           enUS: 'JoinUs',
         }),
@@ -91,7 +82,7 @@ class Footer extends React.Component<WrappedComponentProps> {
         {
           icon: <GithubOutlined/>,
           title: 'GitHub',
-          url: 'https://github.com/ant-design/ant-design',
+          url: 'https://github.com/micro-in-cn/questions',
           openExternal: true,
         },
       ],

@@ -74,7 +74,7 @@ export default ({
       id="nav"
     >
       <Menu.Item key="docs/react">
-        <Link to={utils.getLocalizedPathname('{{root}}/docs/micro/introduce', isZhCN)}>
+        <Link to={utils.getLocalizedPathname('/docs/micro/introduce', isZhCN)}>
           <FormattedMessage id="app.header.menu.documentation" />
         </Link>
       </Menu.Item>

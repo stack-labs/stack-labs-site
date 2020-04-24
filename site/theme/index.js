@@ -43,6 +43,7 @@ module.exports = {
     },
     'docs/micro': pickerGenerator('micro'),
     'docs/xconf': pickerGenerator('xconf'),
+    'docs/community': pickerGenerator('community'),
   },
   plugins: [
     'bisheng-plugin-description',
@@ -65,6 +66,10 @@ module.exports = {
       },
       {
         path: 'docs/xconf/:children',
+        component: contentTmpl,
+      },
+      {
+        path: 'docs/community/:children',
         component: contentTmpl,
       },
     ],

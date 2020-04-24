@@ -136,7 +136,7 @@ class ComponentDoc extends React.Component {
     const articleClassName = classNames({
       'show-riddle-button': showRiddleButton,
     });
-    const helmetTitle = `${subtitle || ''} ${title[locale] || title} - Ant Design`;
+    const helmetTitle = `${subtitle || ''} ${title[locale] || title} - Micro 中国`;
     const contentChild = getMetaDescription(getChildren(content));
 
     return (
