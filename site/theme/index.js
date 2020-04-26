@@ -42,7 +42,6 @@ module.exports = {
       return null;
     },
     'docs/micro': pickerGenerator('micro'),
-    'docs/xconf': pickerGenerator('xconf'),
     'docs/community': pickerGenerator('community'),
   },
   plugins: [

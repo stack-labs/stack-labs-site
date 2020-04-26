@@ -1,5 +1,5 @@
 ---
-order: 0
+order: 34
 title: Go-Micro 框架
 ---
 
@@ -7,7 +7,7 @@ Go-Micro 微服务开发框架
 
 ## 概览
 
-Go Micro提供分布式系统开发的核心库，包含RPC与事件驱动的通信机制。
+Go Micro 提供分布式系统开发的核心库，包含 RPC 与事件驱动的通信机制。
 
 **micro**的设计哲学是可插拔的架构理念，她提供可快速构建系统的组件，并且可以根据自身的需求剥离默认实现并自行定制。
 
@@ -21,7 +21,7 @@ Go-Micro 主要有以下特性
 
 - **消息编码（Message Encoding）** - 服务之间通信需要对称编码格式，彼此才能进行编/解码。
 
-- **Request/Response** - 同步请求，也即远程过程调用RPC
+- **Request/Response** - 同步请求，也即远程过程调用 RPC
 
 - **异步消息（Async Messaging）** - 异步消息
 
