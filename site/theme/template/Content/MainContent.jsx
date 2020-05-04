@@ -28,8 +28,7 @@ function getModuleData(props) {
         .filter(item => item)
         .slice(0, 2)
         .join('/');
-  // const excludedSuffix = utils.isZhCN(props.location.pathname) ? 'en-US.md' : 'zh-CN.md';
-  const excludedSuffix = 'zh-CN.md';
+  const excludedSuffix = utils.isZhCN(props.location.pathname) ? 'en-US.md' : 'zh-CN.md';
   let data;
   switch (moduleName) {
     case 'docs/react':
