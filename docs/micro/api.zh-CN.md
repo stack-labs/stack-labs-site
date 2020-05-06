@@ -275,5 +275,3 @@ URL 会被解析成以下几部分：
 | /foo/bar       | go.micro.api.foo     | /foo/bar       |
 | /greeter       | go.micro.api.greeter | /greeter       |
 | /greeter/:name | go.micro.api.greeter | /greeter/:name |
-
-{% include links.html %}

@@ -248,5 +248,3 @@ kubectl create -f service.yaml
 ```
 
 这样，在你的服务中调用 greeter 微服务，会被路由到 k8s 服务中的 greeter 服务 8080 端口上。
-
-{% include links.html %}

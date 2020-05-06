@@ -228,5 +228,3 @@ curl -d '{"name": "john"}' http://localhost:8080/greeter/hello
 我们需要向 gRPC 网关提供使用了服务发现、动态路由、负载均衡的后台 micro api 服务所在的地址。这降低了集成网关的通用性。
 
 参考[github.com/micro/micro](https://github.com/micro/micro)了解更多。
-
-{% include links.html %}

@@ -45,5 +45,3 @@ micro 由以下几个部分组成：
 ## 相关用户
 
 可以查看[用户列表](users.html)
-
-{% include links.html %}

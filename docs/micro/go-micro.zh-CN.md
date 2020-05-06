@@ -446,5 +446,3 @@ greeter 示例的完整代码[**examples/greeter**](https://github.com/micro/exa
 所有的示例都可以在 GitHub 仓库中找到。
 
 观看[Golang 英国会议 2016](https://www.youtube.com/watch?v=xspaDovwk34)视频，获得更高级的视角。
-
-{% include links.html %}

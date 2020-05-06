@@ -85,5 +85,3 @@ $ micro call go.micro.srv.greeter Say.Hello '{"name": "John"}'
 ```
 
 查看更多信息 [github.com/micro/micro](https://github.com/micro/micro)
-
-{% include links.html %}

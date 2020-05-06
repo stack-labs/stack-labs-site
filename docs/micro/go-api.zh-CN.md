@@ -107,5 +107,3 @@ web 处理器职责是反向代理，它内置服务发现，并支持 web socke
 - Forward Format: 反向代理且支持 web socket
 - Path: `/[service]`
 - Resolver: 请求路径会用来解析服务名
-
-{% include links.html %}

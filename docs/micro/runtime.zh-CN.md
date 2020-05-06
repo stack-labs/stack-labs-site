@@ -1,5 +1,5 @@
 ---
-order: 28
+order: 39
 title: Micro Runtime
 ---
 
@@ -354,5 +354,3 @@ micro --registry=etcdv3 --transport=nats --broker=kafka [其它命令]
 # 环境变量
 MICRO_REGISTRY=etcdv3 MICRO_TRANSPORT=nats MICRO_BROKER=kafka micro [其它命令]
 ```
-
-{% include links.html %}

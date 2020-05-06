@@ -1,5 +1,5 @@
 ---
-order: 22
+order: 36
 title: 插件库
 ---
 
@@ -24,5 +24,3 @@ Go-Micro 和 Micro 工具集的插件是各自独立的，可以在导航栏里�
 ## 仓库
 
 相关开源的插件可在 github 中找到[github.com/micro/go-plugins](https://github.com/micro/go-plugins)。
-
-{% include links.html %}

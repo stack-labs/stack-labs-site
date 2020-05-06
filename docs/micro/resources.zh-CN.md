@@ -1,5 +1,5 @@
 ---
-order: 26
+order: 39
 title: 相关资源
 ---
 
@@ -18,5 +18,3 @@ title: 相关资源
 ## 相关视频
 
 - Golang 2016 年在英国的会议，**使用 micro 简化微服务开发视频** [(Video)](https://www.youtube.com/watch?v=xspaDovwk34) [(Slides)](https://speakerdeck.com/asim/simplifying-microservices-with-micro)
-
-{% include links.html %}

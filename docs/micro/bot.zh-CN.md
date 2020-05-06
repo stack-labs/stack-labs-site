@@ -266,5 +266,3 @@ func main() {
 	}
 }
 ```
-
-{% include links.html %}

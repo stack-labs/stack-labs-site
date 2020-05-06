@@ -1,5 +1,5 @@
 ---
-order: 23
+order: 37
 title: Go Micro插件
 ---
 
@@ -142,5 +142,3 @@ micro --registry=etcdv3 --transport=nats --broker=kafka
 ## 源码仓库
 
 go-micro 插件集可以在[github.com/micro/go-plugins](https://github.com/micro/go-plugins)中找到。
-
-{% include links.html %}
