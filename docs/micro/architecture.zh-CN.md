@@ -50,5 +50,3 @@ CLI 模块很好理解，它是 go-micro 的命令行工具，提供与实际运
 ## Plugins
 
 Go-Micro 支持通过插件的方式管理运行时，更多内容可查看[runtime-plugins](runtime-plugins.html)。
-
-{% include links.html %}

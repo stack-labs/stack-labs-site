@@ -129,5 +129,3 @@ COMMANDS:
     new		Create a new micro service by specifying a directory path relative to your $GOPATH
     web		Run the micro web app
 ```
-
-{% include links.html %}

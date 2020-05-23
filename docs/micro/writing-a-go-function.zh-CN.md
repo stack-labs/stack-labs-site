@@ -300,5 +300,3 @@ fmt.Println(rsp.Greeter)
 `proto.NewGreeterClient` 需要 Function 名与客户端来请求服务。
 
 完整例子可查看[go-micro/examples/function](https://github.com/micro/examples/tree/master/function).
-
-{% include links.html %}

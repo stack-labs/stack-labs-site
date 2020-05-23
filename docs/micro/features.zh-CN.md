@@ -53,5 +53,3 @@ Go Config 可以管理复杂的配置
 
 - [Kubernetes](https://github.com/micro/kubernetes)
 - [Docker Compose](https://github.com/micro/micro/blob/master/.compose.yml)
-
-{% include links.html %}

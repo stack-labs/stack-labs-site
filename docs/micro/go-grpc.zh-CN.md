@@ -126,5 +126,3 @@ micro --client=grpc --server=grpc
 Go-grpc 与 gRPC 生态是无缝集成的，所以 grpc-gateway 使用没特别之处。
 
 我们提供了简单的问候 Greeter 服务，可以参考[examples/grpc/gateway](https://github.com/micro/examples/tree/master/grpc/gateway)。
-
-{% include links.html %}

@@ -294,5 +294,3 @@ fmt.Println(rsp.Greeter)
 `proto.NewGreeterClient` 需要服务名与客户端来请求服务。
 
 完整示例参考：[go-micro/examples/service](https://github.com/micro/examples/tree/master/service).
-
-{% include links.html %}

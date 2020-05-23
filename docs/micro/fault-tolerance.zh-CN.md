@@ -121,5 +121,3 @@ service := micro.NewService(
 
 service.Client().Init(cache.NewSelector())
 ```
-
-{% include links.html %}
