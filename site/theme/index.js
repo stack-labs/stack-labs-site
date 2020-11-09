@@ -41,7 +41,7 @@ module.exports = {
       }
       return null;
     },
-    'docs/micro': pickerGenerator('micro'),
+    'docs/stack-rpc': pickerGenerator('stack-rpc'),
     'docs/community': pickerGenerator('community'),
   },
   plugins: [
@@ -60,7 +60,7 @@ module.exports = {
         component: homeTmpl,
       },
       {
-        path: 'docs/micro/:children',
+        path: 'docs/stack-rpc/:children',
         component: contentTmpl,
       },
       {

@@ -71,9 +71,8 @@ export default function Banner() {
             <PlayCircleFilled /> <FormattedMessage id="app.home.play-video" />
           </a>
 
-
           <div className="home-banner-content-operations">
-            <Link to={getLocalizedPathname('/docs/micro/introduce', isZhCN)}>
+            <Link to={getLocalizedPathname('/docs/stack-rpc/introduce', isZhCN)}>
               <Button type="primary" shape="round">
                 <FormattedMessage id="app.home.getting-started" />
               </Button>

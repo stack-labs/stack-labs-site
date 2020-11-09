@@ -103,7 +103,7 @@ class Article extends React.Component<ArticleProps> {
     const { meta, description } = content;
     const { title, subtitle, filename } = meta;
     const isNotTranslated = locale === 'en-US' && typeof title === 'object';
-    const helmetTitle = `${(title as LocaleString)[locale] || title} - Micro 中国`;
+    const helmetTitle = `${(title as LocaleString)[locale] || title} - Slack Labs 中国`;
     const helmetDesc = getMetaDescription(description);
     const contentChild = getMetaDescription(getChildren(content.content));
     const metaDesc = helmetDesc || contentChild;

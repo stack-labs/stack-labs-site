@@ -216,7 +216,7 @@ export default function DesignPage() {
 
                 <ul>
                   <li>
-                    <Link to={getLocalizedPathname('/docs/micro/introduce', isZhCN)}>
+                    <Link to={getLocalizedPathname('/docs/stack-rpc/introduce', isZhCN)}>
                       官方插件
                       <RightOutlined className="home-link-arrow" />
                     </Link>

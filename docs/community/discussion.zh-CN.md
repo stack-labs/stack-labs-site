@@ -3,9 +3,9 @@ order: 1
 title: 讨论
 ---
 
-> 中国站致力于为中国开发者提供丰富的资料、健壮的产品与力所能及的技术支持。
+> Stack-Labs 致力于为中国开发者健壮的开源产品、资料与力所能及的技术支持。
 
-## Micro China Team
+## Stack-Labs Team
 
 预备条件：
 
@@ -13,13 +13,13 @@ title: 讨论
 
 ## 公众号
 
-<img src="https://github.com/micro-in-cn/Notice/raw/master/donation/wx_qrcode.jpg" width="30%">
+<img src="https://github.com/stack-labs/Notice/raw/master/donation/wx_qrcode.jpg" width="30%">
 
 ## 微信群
 
-<img src="https://github.com/micro-in-cn/Notice/raw/master/donation/wx_group_v1.png" width="30%">
+<img src="https://github.com/stack-labs/Notice/raw/master/donation/wx_group_v1.png" width="30%">
 
-备注：micro 加入讨论群
+备注：Stack-Labs 加入讨论群
 
 > 本群禁止任何吹水、无意义盖楼；禁止讨论工具的喜好；禁止一切形式广告；禁止分享非原创、非微服务、非技术性、原创但收费链接
 
@@ -29,4 +29,4 @@ title: 讨论
 
 ## Question
 
-我们仓库了一个问题仓库，旨在把大家的所有问题沉淀下来，为后来者们提供尽可能的帮助，[Question 仓库](https://github.com/micro-in-cn/questions)
+我们仓库了一个问题仓库，旨在把大家的所有问题沉淀下来，为后来者们提供尽可能的帮助，[Question 仓库](https://github.com/stack-labs/questions)

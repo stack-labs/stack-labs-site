@@ -33,10 +33,10 @@ module.exports = {
     'app.demo.stackblitz': '在 Stackblitz 中打开',
     'app.demo.riddle': '在 Riddle 中打开',
     'app.home.slogan': '一套企业级 UI 设计语言和 React 组件库',
-    'app.home.introduce': 'Micro 中国站，Go-Micro 中文站点',
+    'app.home.introduce': 'Stack-Labs 实验室，专注开源服务',
     'app.home.recommend': '精彩推荐',
     'app.home.popularize': '推广',
-    'app.home.design-and-framework': 'Go-Micro 框架',
+    'app.home.design-and-framework': 'Stack-RPC 框架',
     'app.home.design-values': '设计价值观',
     'app.home.design-values-description':
       'Go Micro 通过提供健全的接口、丰富的插件，旨在帮助开发人员以最简的方式，在任何环境中开发微服务与分布式系统',

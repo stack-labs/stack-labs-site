@@ -73,8 +73,8 @@ export default ({
       selectedKeys={[activeMenuItem]}
       id="nav"
     >
-      <Menu.Item key="docs/react">
-        <Link to={utils.getLocalizedPathname('/docs/micro/introduce', isZhCN)}>
+      <Menu.Item key="docs/stack-rpc">
+        <Link to={utils.getLocalizedPathname('/docs/stack-rpc/introduce', isZhCN)}>
           <FormattedMessage id="app.header.menu.documentation" />
         </Link>
       </Menu.Item>
