@@ -439,7 +439,7 @@ service := micro.NewService(
 
 服务示例可以在[**examples/service**](https://github.com/micro/examples/tree/master/service)中找到，Function 则到[**examples/function**](https://github.com/micro/examples/tree/master/function)查看
 
-[**examples**](https://github.com/micro/examples)的 Github 目录下包含了各种示例，比如中间件/包装器，选择过滤器，发布/订阅，gRPC，插件等。
+[**examples**](https://github.com/micro/examples)的 Github 目录下包含了各种示例，比如中间件/包装器，选择过滤器，发布/订阅，gRPC，插件等。
 
 greeter 示例的完整代码[**examples/greeter**](https://github.com/micro/examples/tree/master/greeter)。
 

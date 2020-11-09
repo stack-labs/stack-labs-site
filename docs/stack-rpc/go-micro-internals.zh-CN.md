@@ -37,7 +37,7 @@ Go Micro 旨在使用接口达到让其抽象化。因此，内部的实现可�
 
 服务示例可查看[**examples/service**](https://github.com/micro/examples/tree/master/service)。 Function 可查看[**examples/function**](https://github.com/micro/examples/tree/master/function)。
 
-[**examples**](https://github.com/micro/examples)的 Github 目录下包含了各种示例，比如中间件/包装器，选择过滤器，发布/订阅，gRPC，插件等。
+[**examples**](https://github.com/micro/examples)的 Github 目录下包含了各种示例，比如中间件/包装器，选择过滤器，发布/订阅，gRPC，插件等。
 
 greeter 示例的完整代码[**examples/greeter**](https://github.com/micro/examples/tree/master/greeter)。
 
