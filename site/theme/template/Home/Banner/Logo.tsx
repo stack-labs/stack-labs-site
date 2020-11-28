@@ -22,23 +22,20 @@ preLoad(ICON_IMAGES);
 
 const AntDesign = () => (
   <svg>
-    <circle cx="16" cy="16" r="9" fill="#F74455"/>
+    <circle cx="16" cy="16" r="9" fill="#F74455" />
   </svg>
 );
 
 AntDesign.width = 32;
 AntDesign.height = 32;
 
-
 export default function Logo() {
   return (
-    <div
-      className="home-card-logo"
-    >
+    <div className="home-card-logo">
       <img
         width="490"
         height="87"
-        alt="Micro China"
+        alt="Stack Labs"
         src={microChina}
         className="home-banner-normal"
       />

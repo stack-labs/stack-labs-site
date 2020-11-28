@@ -16,8 +16,8 @@ export default ({ responsive }: GithubProps) => {
         [`responsive-${responsive}`]: responsive,
       })}
       type="stargazers"
-      namespace="micro"
-      repo="go-micro"
+      namespace="stack-labs"
+      repo="stack-rpc"
     />
   );
 };

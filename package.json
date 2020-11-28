@@ -13,21 +13,21 @@
     "react-component",
     "ui"
   ],
-  "homepage": "http://ant.design/",
+  "homepage": "http://stack-labs.cn/",
   "bugs": {
-    "url": "https://github.com/ant-design/ant-design/issues"
+    "url": "https://github.com/stack-labs/questions"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ant-design/ant-design"
+    "url": "https://github.com/stack-labs/stack-rpc"
   },
-  "license": "MIT",
+  "license": "Apache",
   "contributors": [
     "ant"
   ],
   "funding": {
     "type": "opencollective",
-    "url": "https://opencollective.com/ant-design"
+    "url": "https://github.com/stack-labs"
   },
   "files": [
     "dist",

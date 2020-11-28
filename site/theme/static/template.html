@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="keywords"
-      content="Go-Micro, Micro, 中文, Go-Micro教程, Go-Micro资源"
+      content="Stack-RPC, Stack, 中文, Go-Micro教程, Go-Micro资源, Stack-RPC资源"
     />
-    <meta
-      name="description"
-      content="Micro 中国站，只为原生中文资源"
-    />
+    <meta name="description" content="Stack Labs，专注开源技术" />
     <title>{% if title %}{{ title | safe }}{% else %}{% endif %}</title>
     {% if meta %}{{ meta | safe }}{% endif %}
     <link
@@ -87,9 +84,7 @@
     </script>
   </head>
   <body>
-    <div id="react-content">
-      {{ content | safe }}
-    </div>
+    <div id="react-content">{{ content | safe }}</div>
     {% for jsFile in manifest["js"] %}
     <script src="{{ root }}{{ jsFile }}"></script>
     {% endfor %}

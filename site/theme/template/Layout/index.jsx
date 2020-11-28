@@ -205,10 +205,7 @@ export default class Layout extends React.Component {
     const { appLocale, direction, isMobile } = this.state;
     const title = 'Micro 中国站';
 
-    const description =
-      appLocale.locale === 'zh-CN'
-        ? 'Go-Micro。'
-        : 'An enterprise-class UI design language and React UI library with a set of high-quality React components, one of best React UI library for enterprises';
+    const description = appLocale.locale === 'zh-CN' ? 'Stack-RPC。' : 'Stack-RPC';
     let pageWrapperClass = 'page-wrapper';
     if (direction === 'rtl') {
       pageWrapperClass += ' page-wrapper-rtl';
