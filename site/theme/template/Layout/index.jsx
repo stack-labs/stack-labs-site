@@ -203,7 +203,7 @@ export default class Layout extends React.Component {
   render() {
     const { children, helmetContext = {}, ...restProps } = this.props;
     const { appLocale, direction, isMobile } = this.state;
-    const title = 'Micro 中国站';
+    const title = 'Stack Labs';
 
     const description = appLocale.locale === 'zh-CN' ? 'Stack-RPC。' : 'Stack-RPC';
     let pageWrapperClass = 'page-wrapper';

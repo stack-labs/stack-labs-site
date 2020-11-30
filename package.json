@@ -21,13 +21,13 @@
     "type": "git",
     "url": "https://github.com/stack-labs/stack-rpc"
   },
-  "license": "Apache",
+  "license": "MIT",
   "contributors": [
     "ant"
   ],
   "funding": {
     "type": "opencollective",
-    "url": "https://github.com/stack-labs"
+    "url": "https://opencollective.com/ant-design"
   },
   "files": [
     "dist",
