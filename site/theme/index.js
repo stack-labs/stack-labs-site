@@ -43,6 +43,7 @@ module.exports = {
     },
     'docs/stack-rpc': pickerGenerator('stack-rpc'),
     'docs/community': pickerGenerator('community'),
+    'docs/release': pickerGenerator('release'),
   },
   plugins: [
     'bisheng-plugin-description',
@@ -69,6 +70,10 @@ module.exports = {
       },
       {
         path: 'docs/community/:children',
+        component: contentTmpl,
+      },
+      {
+        path: 'docs/release/:children',
         component: contentTmpl,
       },
     ],

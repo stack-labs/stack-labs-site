@@ -83,8 +83,8 @@ export default ({
           <FormattedMessage id="app.header.menu.plugins" />
         </Link>
       </Menu.Item>
-      <Menu.Item key="docs/resources">
-        <Link to={utils.getLocalizedPathname('/docs/resources', isZhCN)}>
+      <Menu.Item key="docs/release/">
+        <Link to={utils.getLocalizedPathname('/docs/release/stackrpc-100', isZhCN)}>
           <FormattedMessage id="app.header.menu.resource" />
         </Link>
       </Menu.Item>
