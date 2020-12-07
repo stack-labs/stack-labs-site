@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './Logo.less';
 import { preLoad } from '../util';
-import microChina from '../../../images/stack-rpc-v1.0.0-beta.svg';
+import microChina from '../../../images/micro-china.svg';
 
 const ICON_IMAGES = [
   'https://gw.alipayobjects.com/zos/basement_prod/fef2f3d5-9326-48e3-a8f3-a99584efd425.svg',
