@@ -7,11 +7,11 @@ toc: false
 这里汇总了与 Stack-Labs 相关的所有资源。
 
 - 入门
-  - 框架介绍
-  - 框架特性
+  - 框架介绍: [introduce.zh-CN.md](stack-rpc/introduce.zh-CN.md)
+  - 框架特性: [features.zh-CN.md](stack-rpc/features.zh-CN.md)
     - 特性
     - 成熟度
-  - 贡献指南
+  - 贡献指南: [features.zh-CN.md](stack-rpc/features.zh-CN.md)
   - 版本规划
   - 环境准备
 - 快速开始

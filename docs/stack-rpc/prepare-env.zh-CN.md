@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 2
 title: 环境准备工作
 ---
 

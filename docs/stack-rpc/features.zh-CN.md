@@ -1,18 +1,17 @@
 ---
-order: 11
-title: 特性
+order: 2
+title: 框架特性【编写中】
 ---
 
-Micro 的生态系统正在高速发展，但是目前还是有很多事要做。
+Stack 生态系统基于原 Micro 能力发展，但是目前还是有很多事要做。
 
 本页面会一直保持更新最重要的或者值得一提的特性。
 
-- [框架](https://github.com/micro/go-micro) 用于写服务
-- [工具集](https://github.com/micro/micro) 用于访问服务
-- [示例](https://github.com/micro/examples) 演示使用 Micro 的方法
-- [搜索器](https://micro.mu/explore/) 搜索大家贡献的相关开源库
+- [框架](https://github.com/stack-labs/stack-rpc) 用于编写微服务
+- [插件集](https://github.com/stack-labs/stack-rpc-plugins) 集成第三方能力、服务
+- [示例](https://github.com/stack-labs/stack-rpc-tutorials) 演示使用 Stack 的方法
 
-## [Micro](https://github.com/micro/micro)
+## [Stack](https://github.com/micro/micro)
 
 Micro 包括了工具集用于查询和访问微服务。
 
@@ -22,11 +21,11 @@ Micro 包括了工具集用于查询和访问微服务。
 - Bot，面向 Slack 或 HipChat 访问微服务的工具。
 - New，用于快整生成服务模板，快速开发。
 
-## [Go Micro](https://github.com/micro/go-micro)
+## [Stack-RPC 框架](https://github.com/stack-labs/stack-rpc)
 
-Go Micro 可以帮你编写微服务。
+Stack RPC 可以帮你编写微服务。
 
-- Go Micro 抽象出分布式系统
+- 抽象分布式系统所需的组件
 - 集成服务发布、RPC、分发/订阅机制、消息编码
 - 超时容错、重试机制、负载均衡
 - 功能可扩展
