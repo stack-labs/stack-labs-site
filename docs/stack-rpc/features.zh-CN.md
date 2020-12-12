@@ -25,9 +25,14 @@ StackRPC 可以帮你快速编写微服务。
 
 StackCtl 包括了工具集用于查询和访问微服务。
 
-- **new**，用于快整生成服务模板，快速开发。
-- **service**，todo，用于查询服务注册信息
-- **services**，todo，用于查询服务列表
+- **new**，用于快整生成服务模板，快速开发
+- **service**，todo，通过命令行查询服务注册信息
+- **list**，todo，通过命令行查询服务列表
+- **call**，todo，通过命令行调用指定服务
+- **stream**，todo，通过命令行调用指定服务的 Stream 流式接口
+- **kill**，todo，通过命令行关闭某个服务
+- **deregister**，todo，通过命令行卸载某个服务
+- **register**，todo，通过命令行注册某个服务
 
 ## [StackWay](https://github.com/stack-labs/stack-rpc-plugins/tree/master/service/stackway)
 
@@ -36,6 +41,12 @@ StackWay 是 StackRPC 的网关，专业代理 RPC 后台应用，暴露出 HTTP
 - 支持 HTTP 请求转 RPC
 - 支持 HTTP 请求转异步（Event）
 - 支持 HTTP、WebSocket 反向代理
+
+## [StackPlatform](https://github.com/stack-labs/stack-rpc-plugins/tree/master/service/stackway)
+
+todo StackPlatform 是 StackRPC 的 Web 管理后台
+
+- 与 StackCtl 对称的 Web 管理功能
 
 ## [Stack-RPC-Plugins](https://github.com/stack-labs/stack-rpc-plugins)
 
