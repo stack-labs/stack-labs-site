@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[224],{3218:function(o,t){o.exports={content:["article",["p","todo"]],meta:{order:8,title:"RPC 同步调用",filename:"docs/stack-rpc/rpc.zh-CN.md"},toc:["ul"]}}}]);
