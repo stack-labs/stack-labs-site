@@ -16,7 +16,7 @@ Stack 中的定义了轻量的日志 Logger 接口。
 
 四个配置方式的优先级大小为：启动参数>环境变量>配置文件>硬编码
 
-### 硬编码
+## 硬编码
 
 硬编码也即在代码中直接声明日志级别：
 
@@ -26,7 +26,7 @@ log.Init(log.WithLevel(log.DebugLevel))
 
 示例：[HardcodeLevel](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/logger/level/hardcode)
 
-### 配置文件
+## 配置文件
 
 > 实现中
 
@@ -42,7 +42,7 @@ stack:
 
 示例：[ConfigFileLevel](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/logger/level/configfile)
 
-### 环境变量
+## 环境变量
 
 可以通过环境变量**STACK_LOG_LEVEL**定义日志级别：
 
@@ -50,7 +50,7 @@ stack:
 STACK_LOG_LEVEL=debug go run main.go
 ```
 
-### 启动参数
+## 启动参数
 
 参数注入也是级别最高的，可以自行初始化日志时传入级别，设置为业务需要初始默认的级别
 
@@ -131,7 +131,7 @@ StackRPC 提供了常见的日志库集成实现
 - [zap](https://github.com/stack-labs/stack-rpc-plugins/tree/master/logger/zap) 研发中
 - [logrus](https://github.com/stack-labs/stack-rpc-plugins/tree/master/logger/logrus)
 
-### Logurs
+## Logurs
 
 下面的示例演示了如何使用 [logrus](https://github.com/micro/go-plugins/tree/master/logger/logrus) 来覆盖默认的实现：
 
