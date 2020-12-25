@@ -11,7 +11,7 @@ export default ({ isZhCN }: SharedProps) => (
   <h1>
     <Link to={utils.getLocalizedPathname('/', isZhCN)} id="logo">
       <img alt="logo" src={microLogo} />
-      Slack Labs 中国
+      Stack Labs 中国
     </Link>
   </h1>
 );

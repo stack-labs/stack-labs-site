@@ -1,13 +1,9 @@
 ---
 order: 3
-title: API
+title: 注册中心
 ---
 
-API 参考了[API 网关模式](http://microservices.io/patterns/apigateway.html)为服务提供了一个单一的公共入口。通过服务发现，Micro API 以 http 方式，将请求动态路由到具体的后台服务接口。我们以下简称**API**。
-
-<p align="center">
-  <img src="../images/api.png" />
-</p>
+Stack-RPC 定义了注册接口**Registry**，内置了轻量的局域网注册 MDNS，同时插件中支持常见的注册中心，比如 etcd、zookeeper、consul 等。下面给大家演示几种声明注册中心的方式
 
 ## 概览
 
