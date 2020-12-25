@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[224],{3218:function(c,t){c.exports={content:["article",["p","RPC 调用是 StackRPC 中的基础能力，基于双向流提供抽象同步通信模型，请求发送到服务端时，会自动拨号、解析、转码、负载均衡等。"],["p","在"]],meta:{order:8,title:"RPC调用【编写中】",filename:"docs/stack-rpc/rpc.zh-CN.md"},toc:["ul"]}}}]);
