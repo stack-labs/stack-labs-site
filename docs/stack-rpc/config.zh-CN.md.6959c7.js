@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[199],{3193:function(o,t){o.exports={content:["article",["p","todo"]],meta:{order:11,title:"配置",filename:"docs/stack-rpc/config.zh-CN.md"},toc:["ul"]}}}]);
