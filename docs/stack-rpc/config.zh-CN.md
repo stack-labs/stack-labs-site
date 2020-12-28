@@ -22,7 +22,7 @@ Stack 中有专门的 Config 模块负责加载框架与业务配置，支持常
 - [本地备份](#本地备份)
 - [使用多数据源](#使用多数据源)
 
-### 服务配置
+## 服务配置
 
 Stack 推荐使用 yml 作为配置格式，并且我们定义了标准的框架配置文件：[**stack.yml**](https://github.com/stack-labs/stack-rpc/blob/master/cmd/stack.yml)，文件中有详细每个字段的备注。
 
@@ -98,7 +98,7 @@ stack:
 
 > 不一定要放到 stack.yml 中，放到其它配置源，也是可以的。
 
-### 业务配置
+## 业务配置
 
 上面我们简单介绍了 Stack 自有属性配置的使用，接下来我们介绍业务配置的接入。
 
@@ -108,7 +108,7 @@ stack:
 - 通过--config 指定声明配置文件
 - 使用 config.Source 加入
 
-#### 在 stack.yml 中 includes
+### 在 stack.yml 中 includes
 
 **includes**属性允许用户在与 stack.yml 同目录下放置其它配置文件
 
@@ -137,7 +137,7 @@ demoA:
 
 完整代码参考：[includes](https://github.com/stack-labs/stack-rpc-tutorials/blob/master/examples/config/file/stackyml)
 
-#### 通过--config 指定声明配置文件
+### 通过--config 指定声明配置文件
 
 当用户不需要默认的配置文件时，只想加载自己的文件，则可以使用**--config**指令
 
@@ -155,7 +155,7 @@ $go run main.go --config=demoA.yml
 
 > config 指令只接受传入一个文件，不支持多文件
 
-#### 使用 config.Source 加入
+### 使用 config.Source 加入
 
 **config.Source**是 Stack 中的 API，上述的使用方式本质也是在框架层面调用了这个方法把源加入到**Config**模块。
 
@@ -179,16 +179,16 @@ source:
 
 上面的例子我们假设了用户有一个配置文件叫**source.yml**，并加载它。完成示例参考：[source](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/config/file/source)
 
-### 读取配置
+## 读取配置
 
 读取配置有两种方法
 
 - 绑定注入
 - config.Get
 
-#### 绑定注入
+### 绑定注入
 
-Stack 提供了快速绑定对象，并自动渲染的 API-**config.RegisterOptions**与配置标记 Tag**sc**，方便开发者在应用初始化后直接使用对象的属性，而不需要手动去指定配置 Key。
+Stack 提供了快速绑定对象，并自动渲染的 API-**config.RegisterOptions**与配置标记 Tag（**sc**），方便开发者在应用初始化后直接使用对象的属性，而不需要手动去指定配置 Key。
 
 > sc 的意思为：stack config
 
@@ -227,6 +227,7 @@ type Value struct {
 
 ```go
     value := Value{}
+    // 注册该对象，将会动态渲染该对象的值
     config.RegisterOptions(&value)
 	service := stack.NewService()
 	service.Init()
@@ -239,7 +240,7 @@ type Value struct {
 
 [示例参考](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/config/file/stackyml)
 
-#### config.Get
+### config.Get
 
 我们依旧使用上方的业务定义，如果不想声明一个结构体来接受注入，也可以直接使用 API 读取，如下：
 
@@ -265,11 +266,11 @@ type Value struct {
 	Bytes() []byte
 ```
 
-### 侦听变动
+## 侦听变动
 
-### 本地备份
+## 本地备份
 
-### 使用多数据源
+## 使用多数据源
 
 ## 支持的配置源
 
