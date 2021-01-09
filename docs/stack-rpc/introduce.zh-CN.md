@@ -24,3 +24,11 @@ Stack-RPC 主要有以下特性
 - **异步消息（Async Messaging）** - 异步消息
 
 - **可插拔接口（Pluggable Interfaces）** - 各大组件都支持替换插拔
+
+## 组件架构
+
+【编写中】
+
+```yaml
+- service - name - id - server - ${service.id}-server - client - ${service.id}-client - registry - config - logger
+```
