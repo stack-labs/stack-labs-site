@@ -30,5 +30,14 @@ Stack-RPC 主要有以下特性
 【编写中】
 
 ```yaml
-- service - name - id - server - ${service.id}-server - client - ${service.id}-client - registry - config - logger
+service
+ - name
+ - id
+ - server
+   - id: ${service.id}-server
+ - client
+   - id: ${service.id}-client
+ - registry
+ - config
+ - logger
 ```
