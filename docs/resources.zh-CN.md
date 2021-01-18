@@ -55,18 +55,19 @@ toc: false
     - logrus
     - zap
   - 持久化
-- 13. 熔断降级
+- 13. Web 服务
+- 14. 熔断降级
   - hystrix
-- 14. 限流
+- 15. 限流
   - hystrix
 - 部署
-- 15. Docker
-- 16. Kubernetes
+- 16. Docker
+- 17. Kubernetes
 - 调用链监控
-  - 17. OpenTracing
-  - 18. Jaeger
-  - 19. SkyWalking（目前没有插件）
-  - 20. Metric 监控
-  - 21. Prometheus
+  - 18. OpenTracing
+  - 19. Jaeger
+  - 20. SkyWalking（目前没有插件）
+  - 21. Metric 监控
+  - 22. Prometheus
 
 ---
