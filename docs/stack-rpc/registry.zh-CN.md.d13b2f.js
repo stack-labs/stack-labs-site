@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[216],{3210:function(t,e){t.exports={content:["article",["p","todo"]],meta:{order:10,title:"Registry 服务注册",filename:"docs/stack-rpc/registry.zh-CN.md"},toc:["ul"]}}}]);
