@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[196],{3190:function(o,e){o.exports={content:["article",["p","todo"]],meta:{order:9,title:"Broker 异步调用组件",filename:"docs/stack/broker.zh-CN.md"},toc:["ul"]}}}]);
