@@ -7,16 +7,16 @@ toc: false
 这里汇总了与 Stack-Labs 相关的所有资源。
 
 - 入门
-  - 1. 框架介绍：[introduce.zh-CN.md](stack-rpc/introduce.zh-CN.md)
-  - 2. 框架特性：[features.zh-CN.md](stack-rpc/features.zh-CN.md)
+  - 1. 框架介绍：[introduce.zh-CN.md](stack/introduce.zh-CN.md)
+  - 2. 框架特性：[features.zh-CN.md](stack/features.zh-CN.md)
     - 特性
     - 成熟度
-  - 3. 贡献指南：[contribute.zh-CN.md](stack-rpc/contribute.zh-CN.md)
-  - 4. 版本规划：[dev-plan.zh-CN.md](stack-rpc/dev-plan.zh-CN.md)
-  - 5. 环境准备：[prepare-env.zh-CN.md](stack-rpc/prepare-env.zh-CN.md)
-- 6. 快速开始：[getting-starter.zh-CN.md](stack-rpc/getting-starter.zh-CN.md)
-- 7. 脚手架：[stack-new.zh-CN.md](stack-rpc/stack-new.zh-CN.md)
-- 8. RPC：[rpc.zh-CN.md](stack-rpc/rpc.zh-CN.md)
+  - 3. 贡献指南：[contribute.zh-CN.md](stack/contribute.zh-CN.md)
+  - 4. 版本规划：[dev-plan.zh-CN.md](stack/dev-plan.zh-CN.md)
+  - 5. 环境准备：[prepare-env.zh-CN.md](stack/prepare-env.zh-CN.md)
+- 6. 快速开始：[getting-starter.zh-CN.md](stack/getting-starter.zh-CN.md)
+- 7. 脚手架：[stack-new.zh-CN.md](stack/stack-new.zh-CN.md)
+- 8. RPC：[rpc.zh-CN.md](stack/rpc.zh-CN.md)
   - 同步请求
   - 各配置说明与使用
   - Transport
@@ -24,13 +24,13 @@ toc: false
     - gRPC
     - TCP
     - QUIC
-- 9. Broker：[broker.zh-CN.md](stack-rpc/broker.zh-CN.md)
+- 9. Broker：[broker.zh-CN.md](stack/broker.zh-CN.md)
   - Broker 模块
   - 各配置说明与使用
   - Kafka
   - MQ
   - ...
-- 10. 服务注册：[registry.zh-CN.md](stack-rpc/registry.zh-CN.md)
+- 10. 服务注册：[registry.zh-CN.md](stack/registry.zh-CN.md)
   - 服务注册模块 Registry
   - 各配置说明与使用
   - mDNS
@@ -38,7 +38,7 @@ toc: false
   - Zookeeper
   - Consul
   - K8s
-- 11. 配置与中心：[config.zh-CN.md](stack-rpc/config.zh-CN.md)
+- 11. 配置与中心：[config.zh-CN.md](stack/config.zh-CN.md)
   - 配置模块 Config
   - 各配置说明与使用
   - 本地文件
@@ -47,7 +47,7 @@ toc: false
   - Apollo
   - Consul
   - Etcd
-- 12. 日志：[logger.zh-CN.md](stack-rpc/logger.zh-CN.md)
+- 12. 日志：[logger.zh-CN.md](stack/logger.zh-CN.md)
   - Logger 模块
   - 各配置说明与使用
   - 基础日志库

@@ -29,9 +29,9 @@ Windows 下可使用 Github 上的[Release](https://github.com/protocolbuffers/p
 
 ```bash
 $ go get github.com/golang/protobuf/protoc-gen-go@v1.3.2
-$ go get github.com/stack-labs/stack-rpc/util/protoc-gen-stack
+$ go get github.com/stack-labs/stack/util/protoc-gen-stack
 ```
 
 *protoc-gen-go*帮助我们将 proto 文件转成 golang 版本的接口代码。
 
-*protoc-gen-stack*插件则帮我将 proto 接口生成 stack-rpc 标准的接口代码。
+*protoc-gen-stack*插件则帮我将 proto 接口生成 stack 标准的接口代码。

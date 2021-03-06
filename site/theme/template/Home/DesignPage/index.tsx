@@ -97,7 +97,7 @@ export default function DesignPage() {
 
                 <Link
                   className="design-card-detail"
-                  to={getLocalizedPathname('/docs/spec/values', isZhCN)}
+                  to={getLocalizedPathname('/docs/stack/introduce', isZhCN)}
                 >
                   <FormattedMessage id="app.home.detail" />
                   <RightOutlined className="home-link-arrow" />
@@ -152,7 +152,7 @@ export default function DesignPage() {
         </Col>
 
         {/* *********************** Design Guides *********************** */}
-        <Col xs={24} sm={12}>
+        {/*  <Col xs={24} sm={12}>
           <div
             className="design-card sub-card"
             style={{
@@ -196,10 +196,10 @@ export default function DesignPage() {
               </Col>
             </Row>
           </div>
-        </Col>
+        </Col>*/}
 
         {/* ************************* Component ************************* */}
-        <Col xs={24} sm={12}>
+        {/*        <Col xs={24} sm={12}>
           <div
             className="design-card sub-card"
             style={{
@@ -216,7 +216,7 @@ export default function DesignPage() {
 
                 <ul>
                   <li>
-                    <Link to={getLocalizedPathname('/docs/stack-rpc/introduce', isZhCN)}>
+                    <Link to={getLocalizedPathname('/docs/stack/introduce', isZhCN)}>
                       官方插件
                       <RightOutlined className="home-link-arrow" />
                     </Link>
@@ -239,11 +239,11 @@ export default function DesignPage() {
               </Col>
             </Row>
           </div>
-        </Col>
+        </Col>*/}
       </Row>
 
       {/* ***************************** Group 2 ***************************** */}
-      <Row
+      {/*    <Row
         style={{ marginTop: 40 }}
         gutter={[
           { xs: 32, sm: 40 },
@@ -254,7 +254,7 @@ export default function DesignPage() {
         {MINI_LIST.map(panel => (
           <MiniPanel key={panel.description} {...panel} isZhCN={isZhCN} />
         ))}
-      </Row>
+      </Row>*/}
     </div>
   );
 }

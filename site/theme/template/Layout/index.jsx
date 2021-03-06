@@ -205,7 +205,7 @@ export default class Layout extends React.Component {
     const { appLocale, direction, isMobile } = this.state;
     const title = 'Stack Labs';
 
-    const description = appLocale.locale === 'zh-CN' ? 'Stack-RPC。' : 'Stack-RPC';
+    const description = appLocale.locale === 'zh-CN' ? 'Stack' : 'Stack';
     let pageWrapperClass = 'page-wrapper';
     if (direction === 'rtl') {
       pageWrapperClass += ' page-wrapper-rtl';

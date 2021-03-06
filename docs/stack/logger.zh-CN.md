@@ -24,7 +24,7 @@ Stack 中的定义了轻量的日志 Logger 接口。
 log.Init(log.WithLevel(log.DebugLevel))
 ```
 
-示例：[HardcodeLevel](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/logger/level/hardcode)
+示例：[HardcodeLevel](https://github.com/stack-labs/stack/blob/master/examples/logger/level/hardcode)
 
 ## 配置文件
 
@@ -40,7 +40,7 @@ stack:
     level: debug
 ```
 
-示例：[ConfigFileLevel](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/logger/level/configfile)
+示例：[ConfigFileLevel](https://github.com/stack-labs/stack/blob/master/examples/logger/level/configfile)
 
 ## 环境变量
 
@@ -64,7 +64,7 @@ go run main.go --logger_level=debug
 
 ```bash
 import (
-	"github.com/stack-labs/stack-rpc/logger"
+	"github.com/stack-labs/stack/logger"
 )
 
 func main() {
@@ -79,7 +79,7 @@ func main() {
 }
 ```
 
-示例：[DynamicLevel](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/logger/level/hardcode)
+示例：[DynamicLevel](https://github.com/stack-labs/stack/blob/master/examples/logger/level/hardcode)
 
 ## 固有字段
 
@@ -101,13 +101,13 @@ func main() {
 2020-12-18 00:06:32  file=fields/fields.go:10 header1=头1 level=info hello，这条日志带有固定字段
 ```
 
-示例：[Fields](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/logger/fields)
+示例：[Fields](https://github.com/stack-labs/stack/blob/master/examples/logger/fields)
 
 ## 持久化
 
 默认的日志输是标准输入输出(stdout)，所以是不会落盘到文件系统的，只会在控制台打印出来，如果我们需要将日志落盘持久化，那需要通过插件库中的日志插件来完成。
 
-Stack 提供了日志持久化规范参数[PersistenceOptions](https://github.com/stack-labs/stack-rpc/blob/master/logger/options.go#L8) ：
+Stack 提供了日志持久化规范参数[PersistenceOptions](https://github.com/stack-labs/stack/blob/master/logger/options.go#L8) ：
 
 ```go
 log.Persistence(&log.PersistenceOptions{
@@ -128,12 +128,12 @@ log.Persistence(&log.PersistenceOptions{
 
 StackRPC 提供了常见的日志库集成实现
 
-- [zap](https://github.com/stack-labs/stack-rpc-plugins/tree/master/logger/zap) 研发中
-- [logrus](https://github.com/stack-labs/stack-rpc-plugins/tree/master/logger/logrus)
+- [zap](https://github.com/stack-labs/stack/blob/master/plugin/logger/zap) 研发中
+- [logrus](https://github.com/stack-labs/stack/blob/master/plugin/logger/logrus)
 
 ## Logurs
 
-下面的示例演示了如何使用 [logrus](https://github.com/micro/go-plugins/tree/master/logger/logrus) 来覆盖默认的实现：
+下面的示例演示了如何使用 [logrus](https://github.com/stack-labs/stack/blob/master/plugin/logger/logrus) 来覆盖默认的实现：
 
 ```go
 func main() {
@@ -159,6 +159,6 @@ func main() {
 }
 ```
 
-示例：[Logrus](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/logger/logrus)
+示例：[Logrus](https://github.com/stack-labs/stack/blob/master/examples/logger/logrus)
 
 ### 未完待续

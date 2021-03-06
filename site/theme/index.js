@@ -41,7 +41,7 @@ module.exports = {
       }
       return null;
     },
-    'docs/stack-rpc': pickerGenerator('stack-rpc'),
+    'docs/stack': pickerGenerator('stack'),
     'docs/community': pickerGenerator('community'),
     'docs/release': pickerGenerator('release'),
   },
@@ -61,7 +61,7 @@ module.exports = {
         component: homeTmpl,
       },
       {
-        path: 'docs/stack-rpc/:children',
+        path: 'docs/stack/:children',
         component: contentTmpl,
       },
       {

@@ -8,7 +8,7 @@ title: 脚手架
 ## 安装
 
 ```shell script
-go get -u github.com/stack-labs/stack-rpc/util/stackctl
+go get -u github.com/stack-labs/stack/util/stackctl
 ```
 
 脚手架目前支持创建

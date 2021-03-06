@@ -228,7 +228,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
 
           let menu: (React.ReactElement | null)[] = [
             navigationNode,
-            <Button
+            /*  <Button
               size="small"
               onClick={this.onLangChange}
               className="header-button header-lang-button"
@@ -236,7 +236,7 @@ class Header extends React.Component<HeaderProps, HeaderState> {
             >
               <FormattedMessage id="app.header.lang" />
             </Button>,
-            <More key="more" {...sharedProps} />,
+            <More key="more" {...sharedProps} />,*/
             <Github key="github" responsive={responsive} />,
           ];
 

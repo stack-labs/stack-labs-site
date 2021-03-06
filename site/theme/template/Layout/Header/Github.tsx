@@ -17,7 +17,7 @@ export default ({ responsive }: GithubProps) => {
       })}
       type="stargazers"
       namespace="stack-labs"
-      repo="stack-rpc"
+      repo="stack"
     />
   );
 };

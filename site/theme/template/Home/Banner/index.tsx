@@ -72,7 +72,7 @@ export default function Banner() {
           </a>
 
           <div className="home-banner-content-operations">
-            <Link to={getLocalizedPathname('/docs/stack-rpc/introduce', isZhCN)}>
+            <Link to={getLocalizedPathname('/docs/stack/introduce', isZhCN)}>
               <Button type="primary" shape="round">
                 <FormattedMessage id="app.home.getting-started" />
               </Button>

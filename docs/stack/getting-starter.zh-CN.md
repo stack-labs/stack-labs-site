@@ -7,28 +7,28 @@ title: 快速上手
 
 ## 依赖
 
-环境依赖参考：[环境准备工作](https://stacklabs.cn/docs/stack-rpc/prepare-env-cn)
+环境依赖参考：[环境准备工作](https://stacklabs.cn/docs/stack/prepare-env-cn)
 
 ## 新建项目
 
 ```bash
 $ mkdir stack-demo && cd stack-demo
-$ go mod init stacklabs.cn/stack-rpc/stack-demo
+$ go mod init stacklabs.cn/stack/stack-demo
 ```
 
 StackRPC 目前还没有脚手架):
 
-## 安装 Stack-RPC
+## 安装 Stack
 
 ```bash
-$ go get github.com/stack-labs/stack-rpc
+$ go get github.com/stack-labs/stack
 ```
 
 ## 编写服务
 
 我们写一个简单的问候（greeter）程序作为示例。
 
-例子可参考：[examples/service](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/service/rpc).
+例子可参考：[examples/service](https://github.com/stack-labs/stack/blob/master/examples/service/rpc).
 
 ### 服务原型
 
@@ -62,7 +62,7 @@ $ vim greeter.proto
 
 ### 生成原型
 
-在定义好原型后我们得使用 protoc 及 stack_out 指令 的插件编译它，Stack 插件可以帮助生成 Stack-RPC 需要的原型文件
+在定义好原型后我们得使用 protoc 及 stack_out 指令 的插件编译它，Stack 插件可以帮助生成 Stack 需要的原型文件
 
 ```shell
 $ protoc --proto_path=$GOPATH/src:. --stack_out=. --go_out=. greeter.proto
@@ -110,9 +110,9 @@ package main
 import (
 	"context"
 
-	"github.com/stack-labs/stack-rpc"
-	proto "github.com/stack-labs/stack-rpc-tutorials/examples/proto/service/rpc"
-	"github.com/stack-labs/stack-rpc/logger"
+	"github.com/stack-labs/stack"
+	proto "github.com/stack-labs/stack/examples/proto/service/rpc"
+	"github.com/stack-labs/stack/logger"
 )
 
 // 服务类
@@ -186,9 +186,9 @@ package main
 import (
 	"context"
 
-	"github.com/stack-labs/stack-rpc"
-	proto "github.com/stack-labs/stack-rpc-tutorials/examples/proto/service/rpc"
-	"github.com/stack-labs/stack-rpc/logger"
+	"github.com/stack-labs/stack"
+	proto "github.com/stack-labs/stack/examples/proto/service/rpc"
+	"github.com/stack-labs/stack/logger"
 )
 
 func main() {

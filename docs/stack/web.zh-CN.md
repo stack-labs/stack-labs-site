@@ -72,17 +72,8 @@ func main(){
 }
 ```
 
-完整代码参考：[Web](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/service/web)
+完整代码参考：[Web](https://github.com/stack-labs/stack/blob/master/examples/service/web)
 
 ## 配置详解
-
-| 配置名 | Option | 配置 Key | 作用 |
-| --- | --- | --- | --- |
-| 服务名 | stack.Name | stack.service.name | --- |
-| 根目录 | stack.WebRootPath | stack.service.web.root-path | --- |
-| 地址端口 | stack.Address | stack.server.address | --- |
-| 路由 | stack.WebHandleFuncs | 元 | --- |
-| 静态目录 | stack.WebStaticDir | stack.service.web.route 静态目录暴露路径<p/>stack.service.web.route 静态文件所在目录 | --- |
-| 未完待续 | --- | --- | --- |
 
 ### 未完待续

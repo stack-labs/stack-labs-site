@@ -16,9 +16,9 @@ interface Recommend {
 
 const LIST_CN: Recommend[] = [
   {
-    title: 'Stack-RPC 1.0.0 正式版来了！',
+    title: 'Stack 1.0.0 正式版来了！',
     description:
-      'Stack-RPC 1.0.0 正式版于 12 月 10 日发布！接口能力不断丰富，更健壮的运行时管理能力，为开发者赋能。',
+      'Stack 1.0.0 正式版于 12 月 10 日发布！接口能力不断丰富，更健壮的运行时管理能力，为开发者赋能。',
     img: 'https://gw.alipayobjects.com/mdn/rms_08e378/afts/img/A*G0nDS5-aESoBkARQnAQ',
     href: 'https://zhuanlan.zhihu.com/p/109633620',
     popularize: true,

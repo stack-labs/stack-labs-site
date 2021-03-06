@@ -24,7 +24,7 @@ Stack 中有专门的 Config 模块负责加载框架与业务配置，支持常
 
 ## 服务配置
 
-Stack 推荐使用 yml 作为配置格式，并且我们定义了标准的框架配置文件：[**stack.yml**](https://github.com/stack-labs/stack-rpc/blob/master/cmd/stack.yml)，文件中有详细每个字段的备注。
+Stack 推荐使用 yml 作为配置格式，并且我们定义了标准的框架配置文件：[**stack.yml**](https://github.com/stack-labs/stack/blob/master/service/config/stack.yml)，文件中有详细每个字段的备注。
 
 > yml 结构层次比 JSON、XML、properties 等更加简洁，且支持注释，故而我们推荐 yml。其它常见格式如：JSON、toml 等也是支持的，但需要自行启动时增加--config 指令声明。
 
@@ -41,7 +41,7 @@ Stack 推荐使用 yml 作为配置格式，并且我们定义了标准的框架
 $ go run main.go --config=/path/to/stack.yml
 ```
 
-使用示例：[StackYmlDemo](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/config/file)
+使用示例：[StackYmlDemo](https://github.com/stack-labs/stack/tree/master/examples/config/file)
 
 我们拿纯代码编写应用与配置辅助声明的区别：
 
@@ -135,7 +135,7 @@ demoA:
 	log.Infof("demoA used get: %s", config.Get("includeA", "demoA").String(""))
 ```
 
-完整代码参考：[includes](https://github.com/stack-labs/stack-rpc-tutorials/blob/master/examples/config/file/stackyml)
+完整代码参考：[includes](https://github.com/stack-labs/stack/tree/master/examples/config/file/stackyml)
 
 ### 通过--config 指定声明配置文件
 
@@ -177,7 +177,7 @@ source:
   demoA: Hello! 我是Demo
 ```
 
-上面的例子我们假设了用户有一个配置文件叫**source.yml**，并加载它。完成示例参考：[source](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/config/file/source)
+上面的例子我们假设了用户有一个配置文件叫**source.yml**，并加载它。完成示例参考：[source](https://github.com/stack-labs/stack/blob/master/examples/config/file/source)
 
 ## 读取配置
 
@@ -238,7 +238,7 @@ type Value struct {
 
 使用时注意结构体与配置的层级要一一匹配，否则无法渲染注入成功。
 
-[示例参考](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/config/file/stackyml)
+[示例参考](https://github.com/stack-labs/stack/blob/master/examples/config/file/stackyml)
 
 ### config.Get
 
@@ -276,10 +276,10 @@ type Value struct {
 
 -> 示例跟进中
 
-- 文件 [示例](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/config/file)
+- 文件 [示例](https://github.com/stack-labs/stack/blob/master/examples/config/file)
 - 配置中心
   - xconf
-  - apollo [示例](https://github.com/stack-labs/stack-rpc-tutorials/tree/master/examples/config/apollo)
+  - apollo [示例](https://github.com/stack-labs/stack/blob/master/examples/config/apollo)
   - stack
   - etcd
   - consul

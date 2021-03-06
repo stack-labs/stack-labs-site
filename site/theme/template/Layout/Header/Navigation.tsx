@@ -47,9 +47,9 @@ export default ({
         Github
       </a>
     </Menu.Item>,
-    <Menu.Item key="switch-lang" onClick={onLangChange}>
+    /*    <Menu.Item key="switch-lang" onClick={onLangChange}>
       <FormattedMessage id="app.header.lang" />
-    </Menu.Item>,
+    </Menu.Item>,*/
     <Menu.Item key="switch-direction" onClick={onDirectionChange}>
       {directionText}
     </Menu.Item>,
@@ -73,18 +73,18 @@ export default ({
       selectedKeys={[activeMenuItem]}
       id="nav"
     >
-      <Menu.Item key="docs/stack-rpc">
-        <Link to={utils.getLocalizedPathname('/docs/stack-rpc/introduce', isZhCN)}>
+      <Menu.Item key="docs/stack">
+        <Link to={utils.getLocalizedPathname('/docs/stack/introduce', isZhCN)}>
           <FormattedMessage id="app.header.menu.documentation" />
         </Link>
       </Menu.Item>
-      <Menu.Item key="components">
+      {/*      <Menu.Item key="components">
         <Link to={utils.getLocalizedPathname('/components/button/', isZhCN)}>
-          <FormattedMessage id="app.header.menu.plugins" />
+          <FormattedMessage id="app.header.menu.plugins"/>
         </Link>
-      </Menu.Item>
+      </Menu.Item>*/}
       <Menu.Item key="docs/release/">
-        <Link to={utils.getLocalizedPathname('/docs/release/stackrpc-100', isZhCN)}>
+        <Link to={utils.getLocalizedPathname('/docs/release/stack-100', isZhCN)}>
           <FormattedMessage id="app.header.menu.resource" />
         </Link>
       </Menu.Item>
